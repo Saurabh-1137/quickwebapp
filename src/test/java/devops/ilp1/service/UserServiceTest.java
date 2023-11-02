@@ -12,7 +12,7 @@ public class UserServiceTest {
 	public void testIsAutherozied() {
 		User u1=new User("A","P","1234","a.p@devops.com");
 		assertEquals(true,new UserService().isAuthorized(u1));
-		fail("#######force for test failuare#####");
+		//fail("#######force for test failuare#####");
 	}
 
 	@Test
